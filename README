@@ -3,7 +3,7 @@ perl-XML-Atom
 Perl module for Atom feeds
 
 Runtime requirements:
-  perl-5.10.0-3
+  perl-5.10.0-5
   perl-Class-Data-Inheritable-0.08-1
   perl-DateTime-0.42-1
   perl-Digest-SHA1-2.11-1
@@ -12,7 +12,7 @@ Runtime requirements:
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygport-0.3.9-1
+  cygport-0.4.3-1
   make-3.81-1
 
 Canonical website:
@@ -24,15 +24,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-XML-Atom-0.28-X-src.tar.bz2
+  unpack perl-XML-Atom-0.32-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-XML-Atom-0.28-X.cygport all
+  cygport ./perl-XML-Atom-0.32-X.cygport all
 
 This will create:
-  /usr/src/perl-XML-Atom-0.28-X-src.tar.bz2
-  /usr/src/perl-XML-Atom-0.28-X.tar.bz2
+  /usr/src/perl-XML-Atom-0.32-X-src.tar.bz2
+  /usr/src/perl-XML-Atom-0.32-X.tar.bz2
 
 -------------------------------------------
 
@@ -52,8 +52,8 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/XML/Atom/Thing.pm
   /usr/lib/perl5/vendor_perl/5.10/XML/Atom/Util.pm
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/XML/Atom/.packlist
-  /usr/share/doc/perl-XML-Atom-0.28/Changes
-  /usr/share/doc/perl-XML-Atom-0.28/README
+  /usr/share/doc/perl-XML-Atom-0.32/Changes
+  /usr/share/doc/perl-XML-Atom-0.32/README
   /usr/share/man/man3/XML.Atom.3pm.gz
   /usr/share/man/man3/XML.Atom.Client.3pm.gz
   /usr/share/man/man3/XML.Atom.Entry.3pm.gz
@@ -65,6 +65,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.32-1 -----
+Version bump.
 
 ----- version 0.28-1 -----
 Initial release for Cygwin.
