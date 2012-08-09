@@ -1,4 +1,0 @@
-category: Perl
-requires: perl perl-Class-Data-Inheritable perl-DateTime perl-Digest-SHA1 perl-LWP-Authen-Wsse perl-XML-XPath
-sdesc: "Perl module for Atom feeds"
-ldesc: "Perl module for Atom feeds"
