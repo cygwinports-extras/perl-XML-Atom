@@ -3,7 +3,7 @@ inherit perl
 
 NAME="perl-XML-Atom"
 VERSION=0.41
-RELEASE=1
+RELEASE=2
 CATEGORY="Perl"
 SUMMARY="Perl Atom syndication API"
 DESCRIPTION="Atom is a syndication, API, and archiving format for weblogs and
