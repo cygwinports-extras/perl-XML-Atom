@@ -1,0 +1,13 @@
+CPAN_AUTHOR=miyagawa
+inherit perl
+
+NAME="perl-XML-Atom"
+VERSION=0.41
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Perl Atom syndication API"
+DESCRIPTION="Atom is a syndication, API, and archiving format for weblogs and
+other data. XML::Atom implements the feed format as well as a client for the
+API."
+
+ARCH=noarch
